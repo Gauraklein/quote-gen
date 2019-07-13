@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+    
+    <script src="js/quote.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Noto+Sans" rel="stylesheet">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <title>RandomQuoteMachine</title>
+</head>
+
+<body onload="newQuote()">
+    <h1></h1>
+    <div id="quote-box">
+        <div id="quoteTitle">
+            <h1><i class="fa fa-quote-left"></i>
+                Random Quotes
+                <i class="fa fa-quote-right"></i></h1>
+        </div>
+        <div class="spacer"></div>
+        <div id="text">
+
+        </div>
+        <div class="spacer"></div>
+        <div id="author">
+
+        </div>
+        <div class="spacer"></div>
+
+        <div>
+
+        <button id="new-quote" onclick="newQuote()" class="btn btn-lg">
+            Get a Quote
+        </button>
+        
+        <button id="tweetbutton" class="btn btn-lg">
+            <a id="tweet-quote" href="twitter.com/intent/tweet"> 
+                <i class="fa fa-twitter"></i>
+            </a>
+        </button>
+        </div>
+    </div>
+
+</body>
+
+</html>
